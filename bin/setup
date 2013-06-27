@@ -14,7 +14,7 @@ rm -rf $MOCK_STATE/
 mkdir -p $MOCK_STATE
 touch $MOCK_STATE/setup_called
 
-echo "/etc/alternatives/java_sdk_1.6.0/bin" > $OPENSHIFT_DOWNLOADABLE_MOCK_PLUGIN_DIR/env/OPENSHIFT_DOWNLOADABLE_MOCK_PLUGIN_PATH_ELEMENT
+#echo "/etc/alternatives/java_sdk_1.6.0/bin" > $OPENSHIFT_DOWNLOADABLE_MOCK_PLUGIN_DIR/env/OPENSHIFT_DOWNLOADABLE_MOCK_PLUGIN_PATH_ELEMENT
 
 function error_exit {
   echo -e "$1\nexit $2" >$MOCK_STATE/setup_failure
